@@ -1,0 +1,242 @@
+{
+  "version": "0.3.1",
+  "versionCode": 9,
+  "package": "mx.newdragon.pos",
+  "build": "assembleDebug: successful",
+  "unitTests": {
+    "tests": 60,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "testSuites": [
+    {
+      "name": "mx.newdragon.pos.BackupStorageTest",
+      "tests": "5",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.BusinessStorageTest",
+      "tests": "9",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.DeliveryInterfaceTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.DeliveryReceiptTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.DeliveryStorageTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.EscPosTransmissionTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.ExplicitPaymentTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.FastRasterTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.IncomePdfTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.IncomeRangeTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.InterfaceTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.MoneyAndSearchTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.OperationInterfaceTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.PaymentInterfaceTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.PaymentMathTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.PaymentRenderingTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.PaymentReportTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.PaymentStorageTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.ReceiptRenderingTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.RestaurantTimeTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.StorageTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.UsabilityInterfaceTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
+      "name": "mx.newdragon.pos.VersionFourMigrationTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    }
+  ],
+  "lint": {
+    "severity_counts": {
+      "Warning": 12,
+      "Hint": 2
+    },
+    "issues": [
+      {
+        "id": "NewerVersionAvailable",
+        "severity": "Warning"
+      },
+      {
+        "id": "ModifierParameter",
+        "severity": "Warning"
+      },
+      {
+        "id": "ModifierParameter",
+        "severity": "Warning"
+      },
+      {
+        "id": "DataExtractionRules",
+        "severity": "Warning"
+      },
+      {
+        "id": "AutoboxingStateCreation",
+        "severity": "Hint"
+      },
+      {
+        "id": "AutoboxingStateCreation",
+        "severity": "Hint"
+      },
+      {
+        "id": "IconLauncherShape",
+        "severity": "Warning"
+      },
+      {
+        "id": "IconLocation",
+        "severity": "Warning"
+      },
+      {
+        "id": "UseKtx",
+        "severity": "Warning"
+      },
+      {
+        "id": "UseKtx",
+        "severity": "Warning"
+      },
+      {
+        "id": "UseKtx",
+        "severity": "Warning"
+      },
+      {
+        "id": "UseKtx",
+        "severity": "Warning"
+      },
+      {
+        "id": "UseKtx",
+        "severity": "Warning"
+      },
+      {
+        "id": "UseKtx",
+        "severity": "Warning"
+      }
+    ]
+  },
+  "validation": "Robolectric API 34, including 1280x800 tablet, 400x900 phone, 320x640 phone and 200% text; hardware checks pending",
+  "design": "Operación ágil; selected by user from text descriptions",
+  "visualEvidence": "docs/design-qa and previews/0.3.1"
+}

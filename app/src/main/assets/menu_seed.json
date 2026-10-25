@@ -1,0 +1,2054 @@
+[
+  {
+    "id": "p001",
+    "category": "Combos",
+    "name": "Arroz + 1 guiso",
+    "description": "Arroz con guisos a elegir.",
+    "options": [
+      {
+        "title": "Guiso",
+        "options": [
+          "Pollo agridulce",
+          "Pollo enchilado",
+          "Pollo New Dragón",
+          "Pollo en tiras",
+          "Combinación china",
+          "Puerco Taipéi",
+          "Pollo en salsa de ostión",
+          "Pollo tamarindo",
+          "Pollo vietnamita",
+          "Pollo pekinés",
+          "Puerco cantonés"
+        ],
+        "count": 1
+      }
+    ],
+    "sortOrder": 0,
+    "variants": [
+      {
+        "id": "p001v1",
+        "label": "Normal",
+        "priceCents": 11000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p002",
+    "category": "Combos",
+    "name": "Arroz + 2 guisos",
+    "description": "Arroz con guisos a elegir.",
+    "options": [
+      {
+        "title": "Guiso",
+        "options": [
+          "Pollo agridulce",
+          "Pollo enchilado",
+          "Pollo New Dragón",
+          "Pollo en tiras",
+          "Combinación china",
+          "Puerco Taipéi",
+          "Pollo en salsa de ostión",
+          "Pollo tamarindo",
+          "Pollo vietnamita",
+          "Pollo pekinés",
+          "Puerco cantonés"
+        ],
+        "count": 2
+      }
+    ],
+    "sortOrder": 1,
+    "variants": [
+      {
+        "id": "p002v1",
+        "label": "Normal",
+        "priceCents": 12000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p003",
+    "category": "Combos",
+    "name": "Arroz + 3 guisos",
+    "description": "Arroz con guisos a elegir. Plato 9×9.",
+    "options": [
+      {
+        "title": "Guiso",
+        "options": [
+          "Pollo agridulce",
+          "Pollo enchilado",
+          "Pollo New Dragón",
+          "Pollo en tiras",
+          "Combinación china",
+          "Puerco Taipéi",
+          "Pollo en salsa de ostión",
+          "Pollo tamarindo",
+          "Pollo vietnamita",
+          "Pollo pekinés",
+          "Puerco cantonés"
+        ],
+        "count": 3
+      }
+    ],
+    "sortOrder": 2,
+    "variants": [
+      {
+        "id": "p003v1",
+        "label": "Normal",
+        "priceCents": 18000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p004",
+    "category": "Combos",
+    "name": "Mini combo (1 guiso)",
+    "description": "Plato 6×6. Arroz con un guiso a elegir.",
+    "options": [
+      {
+        "title": "Guiso",
+        "options": [
+          "Pollo agridulce",
+          "Pollo enchilado",
+          "Pollo New Dragón",
+          "Pollo en tiras",
+          "Combinación china",
+          "Puerco Taipéi",
+          "Pollo en salsa de ostión",
+          "Pollo tamarindo",
+          "Pollo vietnamita",
+          "Pollo pekinés",
+          "Puerco cantonés"
+        ],
+        "count": 1
+      }
+    ],
+    "sortOrder": 3,
+    "variants": [
+      {
+        "id": "p004v1",
+        "label": "Normal",
+        "priceCents": 9000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p005",
+    "category": "Entradas",
+    "name": "Rollos de Philadelphia",
+    "description": "",
+    "options": [],
+    "sortOrder": 4,
+    "variants": [
+      {
+        "id": "p005v1",
+        "label": "Pieza",
+        "priceCents": 3000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p006",
+    "category": "Entradas",
+    "name": "Rollos de PH con camarón",
+    "description": "",
+    "options": [],
+    "sortOrder": 5,
+    "variants": [
+      {
+        "id": "p006v1",
+        "label": "Pieza",
+        "priceCents": 3500,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p007",
+    "category": "Entradas",
+    "name": "Dedos de queso",
+    "description": "",
+    "options": [],
+    "sortOrder": 6,
+    "variants": [
+      {
+        "id": "p007v1",
+        "label": "Pieza",
+        "priceCents": 1500,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p008",
+    "category": "Entradas",
+    "name": "Chiles rellenos",
+    "description": "",
+    "options": [],
+    "sortOrder": 7,
+    "variants": [
+      {
+        "id": "p008v1",
+        "label": "Orden",
+        "priceCents": 8500,
+        "sortOrder": 0
+      },
+      {
+        "id": "p008v2",
+        "label": "Media orden",
+        "priceCents": 5500,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p009",
+    "category": "Entradas",
+    "name": "Toritos",
+    "description": "",
+    "options": [],
+    "sortOrder": 8,
+    "variants": [
+      {
+        "id": "p009v1",
+        "label": "Orden",
+        "priceCents": 13000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p009v2",
+        "label": "Media orden",
+        "priceCents": 8000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p010",
+    "category": "Entradas",
+    "name": "Carnitas rojas",
+    "description": "",
+    "options": [],
+    "sortOrder": 9,
+    "variants": [
+      {
+        "id": "p010v1",
+        "label": "Orden",
+        "priceCents": 15000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p010v2",
+        "label": "Media orden",
+        "priceCents": 12000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p011",
+    "category": "Entradas",
+    "name": "Noodles",
+    "description": "",
+    "options": [],
+    "sortOrder": 10,
+    "variants": [
+      {
+        "id": "p011v1",
+        "label": "Orden",
+        "priceCents": 8500,
+        "sortOrder": 0
+      },
+      {
+        "id": "p011v2",
+        "label": "Media orden",
+        "priceCents": 6500,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p012",
+    "category": "Entradas",
+    "name": "Alitas en salsa de ostión",
+    "description": "",
+    "options": [],
+    "sortOrder": 11,
+    "variants": [
+      {
+        "id": "p012v1",
+        "label": "Orden",
+        "priceCents": 17000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p012v2",
+        "label": "Media orden",
+        "priceCents": 14000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p013",
+    "category": "Sopas",
+    "name": "Pollo y vegetales",
+    "description": "",
+    "options": [],
+    "sortOrder": 12,
+    "variants": [
+      {
+        "id": "p013v1",
+        "label": "Litro",
+        "priceCents": 10000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p013v2",
+        "label": "Medio litro",
+        "priceCents": 7500,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p014",
+    "category": "Sopas",
+    "name": "Fan see con pollo y vegetales",
+    "description": "",
+    "options": [],
+    "sortOrder": 13,
+    "variants": [
+      {
+        "id": "p014v1",
+        "label": "Litro",
+        "priceCents": 11000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p014v2",
+        "label": "Medio litro",
+        "priceCents": 8500,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p015",
+    "category": "Sopas",
+    "name": "Camarón y vegetales",
+    "description": "",
+    "options": [],
+    "sortOrder": 14,
+    "variants": [
+      {
+        "id": "p015v1",
+        "label": "Litro",
+        "priceCents": 13000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p015v2",
+        "label": "Medio litro",
+        "priceCents": 10000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p016",
+    "category": "Sopas",
+    "name": "Fan see con camarón y vegetales",
+    "description": "",
+    "options": [],
+    "sortOrder": 15,
+    "variants": [
+      {
+        "id": "p016v1",
+        "label": "Litro",
+        "priceCents": 14000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p016v2",
+        "label": "Medio litro",
+        "priceCents": 11000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p017",
+    "category": "Sopas",
+    "name": "Ajo con pollo y vegetales",
+    "description": "",
+    "options": [],
+    "sortOrder": 16,
+    "variants": [
+      {
+        "id": "p017v1",
+        "label": "Litro",
+        "priceCents": 12000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p017v2",
+        "label": "Medio litro",
+        "priceCents": 9000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p018",
+    "category": "Sopas",
+    "name": "Enchilosa",
+    "description": "",
+    "options": [],
+    "sortOrder": 17,
+    "variants": [
+      {
+        "id": "p018v1",
+        "label": "Litro",
+        "priceCents": 12500,
+        "sortOrder": 0
+      },
+      {
+        "id": "p018v2",
+        "label": "Medio litro",
+        "priceCents": 9500,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p019",
+    "category": "Arroz",
+    "name": "Arroz de pollo",
+    "description": "",
+    "options": [],
+    "sortOrder": 18,
+    "variants": [
+      {
+        "id": "p019v1",
+        "label": "Orden",
+        "priceCents": 17000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p019v2",
+        "label": "Media orden",
+        "priceCents": 14000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p020",
+    "category": "Arroz",
+    "name": "Arroz de puerco",
+    "description": "",
+    "options": [],
+    "sortOrder": 19,
+    "variants": [
+      {
+        "id": "p020v1",
+        "label": "Orden",
+        "priceCents": 17000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p020v2",
+        "label": "Media orden",
+        "priceCents": 14000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p021",
+    "category": "Arroz",
+    "name": "Arroz de res",
+    "description": "",
+    "options": [],
+    "sortOrder": 20,
+    "variants": [
+      {
+        "id": "p021v1",
+        "label": "Orden",
+        "priceCents": 18500,
+        "sortOrder": 0
+      },
+      {
+        "id": "p021v2",
+        "label": "Media orden",
+        "priceCents": 15000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p022",
+    "category": "Arroz",
+    "name": "Arroz de camarón",
+    "description": "",
+    "options": [],
+    "sortOrder": 21,
+    "variants": [
+      {
+        "id": "p022v1",
+        "label": "Orden",
+        "priceCents": 19000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p022v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p023",
+    "category": "Arroz",
+    "name": "Arroz mixto",
+    "description": "",
+    "options": [],
+    "sortOrder": 22,
+    "variants": [
+      {
+        "id": "p023v1",
+        "label": "Orden",
+        "priceCents": 18000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p023v2",
+        "label": "Media orden",
+        "priceCents": 15000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p024",
+    "category": "Arroz",
+    "name": "Arroz especial",
+    "description": "",
+    "options": [],
+    "sortOrder": 23,
+    "variants": [
+      {
+        "id": "p024v1",
+        "label": "Orden",
+        "priceCents": 19000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p024v2",
+        "label": "Media orden",
+        "priceCents": 16000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p025",
+    "category": "Arroz",
+    "name": "Arroz a la profe",
+    "description": "",
+    "options": [],
+    "sortOrder": 24,
+    "variants": [
+      {
+        "id": "p025v1",
+        "label": "Orden",
+        "priceCents": 19000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p025v2",
+        "label": "Media orden",
+        "priceCents": 16500,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p026",
+    "category": "Arroz",
+    "name": "Arroz cantonés",
+    "description": "",
+    "options": [],
+    "sortOrder": 25,
+    "variants": [
+      {
+        "id": "p026v1",
+        "label": "Orden",
+        "priceCents": 19500,
+        "sortOrder": 0
+      },
+      {
+        "id": "p026v2",
+        "label": "Media orden",
+        "priceCents": 16500,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p027",
+    "category": "Chow meen",
+    "name": "Chow meen de pollo",
+    "description": "",
+    "options": [],
+    "sortOrder": 26,
+    "variants": [
+      {
+        "id": "p027v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p027v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p028",
+    "category": "Chow meen",
+    "name": "Chow meen de puerco",
+    "description": "",
+    "options": [],
+    "sortOrder": 27,
+    "variants": [
+      {
+        "id": "p028v1",
+        "label": "Orden",
+        "priceCents": 21500,
+        "sortOrder": 0
+      },
+      {
+        "id": "p028v2",
+        "label": "Media orden",
+        "priceCents": 17500,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p029",
+    "category": "Chow meen",
+    "name": "Chow meen de res",
+    "description": "",
+    "options": [],
+    "sortOrder": 28,
+    "variants": [
+      {
+        "id": "p029v1",
+        "label": "Orden",
+        "priceCents": 21500,
+        "sortOrder": 0
+      },
+      {
+        "id": "p029v2",
+        "label": "Media orden",
+        "priceCents": 17500,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p030",
+    "category": "Chow meen",
+    "name": "Chow meen de camarón",
+    "description": "",
+    "options": [],
+    "sortOrder": 29,
+    "variants": [
+      {
+        "id": "p030v1",
+        "label": "Orden",
+        "priceCents": 22000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p030v2",
+        "label": "Media orden",
+        "priceCents": 18000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p031",
+    "category": "Chow meen",
+    "name": "Chow meen mixto",
+    "description": "",
+    "options": [],
+    "sortOrder": 30,
+    "variants": [
+      {
+        "id": "p031v1",
+        "label": "Orden",
+        "priceCents": 21500,
+        "sortOrder": 0
+      },
+      {
+        "id": "p031v2",
+        "label": "Media orden",
+        "priceCents": 17500,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p032",
+    "category": "Chow meen",
+    "name": "Chow meen especial",
+    "description": "",
+    "options": [],
+    "sortOrder": 31,
+    "variants": [
+      {
+        "id": "p032v1",
+        "label": "Orden",
+        "priceCents": 22000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p032v2",
+        "label": "Media orden",
+        "priceCents": 18000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p033",
+    "category": "Especialidades",
+    "name": "Combinación china",
+    "description": "Pollo, carne, carnitas rojas y vegetales en salsa de ostión. Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 32,
+    "variants": [
+      {
+        "id": "p033v1",
+        "label": "Orden",
+        "priceCents": 22000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p033v2",
+        "label": "Media orden",
+        "priceCents": 18000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p034",
+    "category": "Especialidades",
+    "name": "Pollo Naka",
+    "description": "Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 33,
+    "variants": [
+      {
+        "id": "p034v1",
+        "label": "Orden",
+        "priceCents": 22000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p034v2",
+        "label": "Media orden",
+        "priceCents": 18000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p035",
+    "category": "Especialidades",
+    "name": "Pollo en salsa de ostión",
+    "description": "Pollo asado con cebolla y salsa de ostión. Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 34,
+    "variants": [
+      {
+        "id": "p035v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p035v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p036",
+    "category": "Especialidades",
+    "name": "Pollo agridulce",
+    "description": "Pollo empanizado con gravy a la piña. Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 35,
+    "variants": [
+      {
+        "id": "p036v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p036v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p037",
+    "category": "Especialidades",
+    "name": "Pollo tamarindo",
+    "description": "Pollo empanizado con gravy de tamarindo. Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 36,
+    "variants": [
+      {
+        "id": "p037v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p037v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p038",
+    "category": "Especialidades",
+    "name": "Pollo en tiras",
+    "description": "Pollo sazonado y empanizado en panko. Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 37,
+    "variants": [
+      {
+        "id": "p038v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p038v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p039",
+    "category": "Especialidades",
+    "name": "Pollo New Dragón",
+    "description": "Pollo empanizado con gravy especial de la casa. Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 38,
+    "variants": [
+      {
+        "id": "p039v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p039v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p040",
+    "category": "Especialidades",
+    "name": "Pollo enchilado",
+    "description": "Pollo empanizado con rodajas de jalapeño, cebolla en tiras y salsa especial. Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 39,
+    "variants": [
+      {
+        "id": "p040v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p040v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p041",
+    "category": "Especialidades",
+    "name": "Pollo vietnamita",
+    "description": "Pollo capeado con vegetales en salsa vietnamita. Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 40,
+    "variants": [
+      {
+        "id": "p041v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p041v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p042",
+    "category": "Especialidades",
+    "name": "Pollo pekinés",
+    "description": "Pollo capeado con vegetales y chile de árbol, en salsa pekinés. Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 41,
+    "variants": [
+      {
+        "id": "p042v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p042v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p043",
+    "category": "Especialidades",
+    "name": "Pollo almendrado",
+    "description": "Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 42,
+    "variants": [
+      {
+        "id": "p043v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p043v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p044",
+    "category": "Especialidades",
+    "name": "Pollo 5",
+    "description": "Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 43,
+    "variants": [
+      {
+        "id": "p044v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p044v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p045",
+    "category": "Especialidades",
+    "name": "Pollo Mongolia",
+    "description": "Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 44,
+    "variants": [
+      {
+        "id": "p045v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p045v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p046",
+    "category": "Especialidades",
+    "name": "Res con brócoli",
+    "description": "Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 45,
+    "variants": [
+      {
+        "id": "p046v1",
+        "label": "Orden",
+        "priceCents": 21500,
+        "sortOrder": 0
+      },
+      {
+        "id": "p046v2",
+        "label": "Media orden",
+        "priceCents": 17500,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p047",
+    "category": "Especialidades",
+    "name": "Puerco Taipéi",
+    "description": "Puerco con chile serrano, cebolla y brócoli en gravy cantonés. Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 46,
+    "variants": [
+      {
+        "id": "p047v1",
+        "label": "Orden",
+        "priceCents": 21500,
+        "sortOrder": 0
+      },
+      {
+        "id": "p047v2",
+        "label": "Media orden",
+        "priceCents": 17500,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p048",
+    "category": "Especialidades",
+    "name": "Puerco cantonés",
+    "description": "Puerco con vegetales en gravy cantonés. Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 47,
+    "variants": [
+      {
+        "id": "p048v1",
+        "label": "Orden",
+        "priceCents": 21500,
+        "sortOrder": 0
+      },
+      {
+        "id": "p048v2",
+        "label": "Media orden",
+        "priceCents": 17500,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p049",
+    "category": "Especialidades",
+    "name": "Pollo con papas",
+    "description": "Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 48,
+    "variants": [
+      {
+        "id": "p049v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p049v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p050",
+    "category": "Especialidades",
+    "name": "Pollo a la naranja",
+    "description": "Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 49,
+    "variants": [
+      {
+        "id": "p050v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p050v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p051",
+    "category": "Especialidades",
+    "name": "Pollo kumpao",
+    "description": "Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 50,
+    "variants": [
+      {
+        "id": "p051v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p051v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p052",
+    "category": "Especialidades",
+    "name": "Alitas con vegetales",
+    "description": "Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 51,
+    "variants": [
+      {
+        "id": "p052v1",
+        "label": "Orden",
+        "priceCents": 21000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p052v2",
+        "label": "Media orden",
+        "priceCents": 17000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p053",
+    "category": "Especialidades",
+    "name": "Nido de pájaro",
+    "description": "Guiso sin arroz. Orden: plato 9×9. Media orden: plato 7×7.",
+    "options": [],
+    "sortOrder": 52,
+    "variants": [
+      {
+        "id": "p053v1",
+        "label": "Orden",
+        "priceCents": 22000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p053v2",
+        "label": "Media orden",
+        "priceCents": 18000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p054",
+    "category": "Arrochitos",
+    "name": "Arrochito de pollo",
+    "description": "Arroz frito con aderezo especial, aguacate, Philadelphia, ensalada de surimi y ajonjolí.",
+    "options": [],
+    "sortOrder": 53,
+    "variants": [
+      {
+        "id": "p054v1",
+        "label": "Normal",
+        "priceCents": 10000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p055",
+    "category": "Arrochitos",
+    "name": "Arrochito de res",
+    "description": "Arroz frito con aderezo especial, aguacate, Philadelphia, ensalada de surimi y ajonjolí.",
+    "options": [],
+    "sortOrder": 54,
+    "variants": [
+      {
+        "id": "p055v1",
+        "label": "Normal",
+        "priceCents": 11000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p056",
+    "category": "Arrochitos",
+    "name": "Arrochito de camarón",
+    "description": "Arroz frito con aderezo especial, aguacate, Philadelphia, ensalada de surimi y ajonjolí.",
+    "options": [],
+    "sortOrder": 55,
+    "variants": [
+      {
+        "id": "p056v1",
+        "label": "Normal",
+        "priceCents": 12000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p057",
+    "category": "Arrochitos",
+    "name": "Arrochito especial",
+    "description": "Arroz frito con aderezo especial, aguacate, Philadelphia, ensalada de surimi y ajonjolí.",
+    "options": [],
+    "sortOrder": 56,
+    "variants": [
+      {
+        "id": "p057v1",
+        "label": "Normal",
+        "priceCents": 12000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p058",
+    "category": "Arrochitos",
+    "name": "Arrochiboneless",
+    "description": "Arroz frito con aderezo especial, aguacate, Philadelphia, ensalada de surimi y ajonjolí.",
+    "options": [],
+    "sortOrder": 57,
+    "variants": [
+      {
+        "id": "p058v1",
+        "label": "Normal",
+        "priceCents": 12000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p059",
+    "category": "Yakimeshi",
+    "name": "Yakimeshi pollo",
+    "description": "",
+    "options": [],
+    "sortOrder": 58,
+    "variants": [
+      {
+        "id": "p059v1",
+        "label": "Normal",
+        "priceCents": 14500,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p060",
+    "category": "Yakimeshi",
+    "name": "Yakimeshi res",
+    "description": "",
+    "options": [],
+    "sortOrder": 59,
+    "variants": [
+      {
+        "id": "p060v1",
+        "label": "Normal",
+        "priceCents": 15000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p061",
+    "category": "Yakimeshi",
+    "name": "Yakimeshi camarón",
+    "description": "",
+    "options": [],
+    "sortOrder": 60,
+    "variants": [
+      {
+        "id": "p061v1",
+        "label": "Normal",
+        "priceCents": 16000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p062",
+    "category": "Yakimeshi",
+    "name": "Yakimeshi especial",
+    "description": "",
+    "options": [],
+    "sortOrder": 61,
+    "variants": [
+      {
+        "id": "p062v1",
+        "label": "Normal",
+        "priceCents": 16000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p063",
+    "category": "Boneless / Alitas",
+    "name": "BBQ",
+    "description": "",
+    "options": [],
+    "sortOrder": 62,
+    "variants": [
+      {
+        "id": "p063v1",
+        "label": "Boneless",
+        "priceCents": 13000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p063v2",
+        "label": "Alitas",
+        "priceCents": 13000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p064",
+    "category": "Boneless / Alitas",
+    "name": "Búfalo",
+    "description": "",
+    "options": [],
+    "sortOrder": 63,
+    "variants": [
+      {
+        "id": "p064v1",
+        "label": "Boneless",
+        "priceCents": 13000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p064v2",
+        "label": "Alitas",
+        "priceCents": 13000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p065",
+    "category": "Boneless / Alitas",
+    "name": "New Dragón",
+    "description": "",
+    "options": [],
+    "sortOrder": 64,
+    "variants": [
+      {
+        "id": "p065v1",
+        "label": "Boneless",
+        "priceCents": 13000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p065v2",
+        "label": "Alitas",
+        "priceCents": 13000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p066",
+    "category": "Boneless / Alitas",
+    "name": "Tamarindo",
+    "description": "",
+    "options": [],
+    "sortOrder": 65,
+    "variants": [
+      {
+        "id": "p066v1",
+        "label": "Boneless",
+        "priceCents": 13000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p066v2",
+        "label": "Alitas",
+        "priceCents": 13000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p067",
+    "category": "Extras",
+    "name": "Té",
+    "description": "",
+    "options": [],
+    "sortOrder": 66,
+    "variants": [
+      {
+        "id": "p067v1",
+        "label": "Litro",
+        "priceCents": 3000,
+        "sortOrder": 0
+      },
+      {
+        "id": "p067v2",
+        "label": "Medio litro",
+        "priceCents": 2000,
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "id": "p068",
+    "category": "Extras",
+    "name": "Arroz frito",
+    "description": "",
+    "options": [],
+    "sortOrder": 67,
+    "variants": [
+      {
+        "id": "p068v1",
+        "label": "Normal",
+        "priceCents": 5000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p069",
+    "category": "Extras",
+    "name": "Salsas",
+    "description": "Limón, chile de árbol o soya.",
+    "options": [
+      {
+        "title": "Salsa",
+        "options": [
+          "Limón",
+          "Chile de árbol",
+          "Soya"
+        ],
+        "count": 1
+      }
+    ],
+    "sortOrder": 68,
+    "variants": [
+      {
+        "id": "p069v1",
+        "label": "Normal",
+        "priceCents": 500,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p070",
+    "category": "Extras",
+    "name": "Aderezos",
+    "description": "Sriracha, anguila, ranch o chipotle.",
+    "options": [
+      {
+        "title": "Aderezo",
+        "options": [
+          "Sriracha",
+          "Anguila",
+          "Ranch",
+          "Chipotle"
+        ],
+        "count": 1
+      }
+    ],
+    "sortOrder": 69,
+    "variants": [
+      {
+        "id": "p070v1",
+        "label": "Normal",
+        "priceCents": 1000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p071",
+    "category": "Extras",
+    "name": "Queso gratinado",
+    "description": "",
+    "options": [],
+    "sortOrder": 70,
+    "variants": [
+      {
+        "id": "p071v1",
+        "label": "Normal",
+        "priceCents": 2000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p072",
+    "category": "Extras",
+    "name": "Tampico",
+    "description": "",
+    "options": [],
+    "sortOrder": 71,
+    "variants": [
+      {
+        "id": "p072v1",
+        "label": "Normal",
+        "priceCents": 2000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p073",
+    "category": "Extras",
+    "name": "Papas fritas",
+    "description": "",
+    "options": [],
+    "sortOrder": 72,
+    "variants": [
+      {
+        "id": "p073v1",
+        "label": "Normal",
+        "priceCents": 4000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p074",
+    "category": "Sushi empanizado",
+    "name": "Bombazo",
+    "description": "",
+    "options": [],
+    "sortOrder": 73,
+    "variants": [
+      {
+        "id": "p074v1",
+        "label": "Normal",
+        "priceCents": 10000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p075",
+    "category": "Sushi empanizado",
+    "name": "Pollo",
+    "description": "",
+    "options": [],
+    "sortOrder": 74,
+    "variants": [
+      {
+        "id": "p075v1",
+        "label": "Normal",
+        "priceCents": 10000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p076",
+    "category": "Sushi empanizado",
+    "name": "Res",
+    "description": "",
+    "options": [],
+    "sortOrder": 75,
+    "variants": [
+      {
+        "id": "p076v1",
+        "label": "Normal",
+        "priceCents": 11000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p077",
+    "category": "Sushi empanizado",
+    "name": "Camarón",
+    "description": "",
+    "options": [],
+    "sortOrder": 76,
+    "variants": [
+      {
+        "id": "p077v1",
+        "label": "Normal",
+        "priceCents": 12000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p078",
+    "category": "Sushi empanizado",
+    "name": "Cielo, mar y tierra",
+    "description": "",
+    "options": [],
+    "sortOrder": 77,
+    "variants": [
+      {
+        "id": "p078v1",
+        "label": "Normal",
+        "priceCents": 12000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p079",
+    "category": "Sushi empanizado",
+    "name": "Sushi boneless",
+    "description": "",
+    "options": [],
+    "sortOrder": 78,
+    "variants": [
+      {
+        "id": "p079v1",
+        "label": "Normal",
+        "priceCents": 14500,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p080",
+    "category": "Sushi empanizado",
+    "name": "Tiritas roll",
+    "description": "",
+    "options": [],
+    "sortOrder": 79,
+    "variants": [
+      {
+        "id": "p080v1",
+        "label": "Normal",
+        "priceCents": 12000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p081",
+    "category": "Sushi natural",
+    "name": "California roll",
+    "description": "",
+    "options": [],
+    "sortOrder": 80,
+    "variants": [
+      {
+        "id": "p081v1",
+        "label": "Normal",
+        "priceCents": 9000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p082",
+    "category": "Sushi natural",
+    "name": "Aguacate roll",
+    "description": "",
+    "options": [],
+    "sortOrder": 81,
+    "variants": [
+      {
+        "id": "p082v1",
+        "label": "Normal",
+        "priceCents": 12000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p083",
+    "category": "Sushi natural",
+    "name": "Philadelphia roll",
+    "description": "",
+    "options": [],
+    "sortOrder": 82,
+    "variants": [
+      {
+        "id": "p083v1",
+        "label": "Normal",
+        "priceCents": 11000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p084",
+    "category": "Sushibolas",
+    "name": "Sushibola pollo",
+    "description": "",
+    "options": [],
+    "sortOrder": 83,
+    "variants": [
+      {
+        "id": "p084v1",
+        "label": "Normal",
+        "priceCents": 8000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p085",
+    "category": "Sushibolas",
+    "name": "Sushibola surimi",
+    "description": "",
+    "options": [],
+    "sortOrder": 84,
+    "variants": [
+      {
+        "id": "p085v1",
+        "label": "Normal",
+        "priceCents": 7500,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p086",
+    "category": "Sushibolas",
+    "name": "Sushibola res",
+    "description": "",
+    "options": [],
+    "sortOrder": 85,
+    "variants": [
+      {
+        "id": "p086v1",
+        "label": "Normal",
+        "priceCents": 8500,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p087",
+    "category": "Sushibolas",
+    "name": "Sushibola camarón",
+    "description": "",
+    "options": [],
+    "sortOrder": 86,
+    "variants": [
+      {
+        "id": "p087v1",
+        "label": "Normal",
+        "priceCents": 9000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p088",
+    "category": "Sushibolas",
+    "name": "Sushibola especial",
+    "description": "",
+    "options": [],
+    "sortOrder": 87,
+    "variants": [
+      {
+        "id": "p088v1",
+        "label": "Normal",
+        "priceCents": 9000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p089",
+    "category": "Charolas",
+    "name": "Normal",
+    "description": "Bombazo, sushi de pollo, sushibola especial y 2 medios litros de té.",
+    "options": [],
+    "sortOrder": 88,
+    "variants": [
+      {
+        "id": "p089v1",
+        "label": "Normal",
+        "priceCents": 30000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p090",
+    "category": "Charolas",
+    "name": "Alucín",
+    "description": "2 sushi boneless, papas y 1 litro de té.",
+    "options": [],
+    "sortOrder": 89,
+    "variants": [
+      {
+        "id": "p090v1",
+        "label": "Normal",
+        "priceCents": 31000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p091",
+    "category": "Charolas",
+    "name": "La People",
+    "description": "Sushi de res, sushi de camarón, 4 chiles rellenos de pollo o camarón, papas fritas y 2 litros de té.",
+    "options": [
+      {
+        "title": "Relleno de chiles",
+        "options": [
+          "Pollo",
+          "Camarón"
+        ],
+        "count": 1
+      }
+    ],
+    "sortOrder": 90,
+    "variants": [
+      {
+        "id": "p091v1",
+        "label": "Normal",
+        "priceCents": 36000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p092",
+    "category": "Charolas",
+    "name": "Deluxe",
+    "description": "Sushi de pollo, sushi de res, sushi de camarón, yakimeshi de pollo, boneless y 1 litro de té.",
+    "options": [],
+    "sortOrder": 91,
+    "variants": [
+      {
+        "id": "p092v1",
+        "label": "Normal",
+        "priceCents": 55000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p093",
+    "category": "Charolas",
+    "name": "Goyo",
+    "description": "3 sushis a elegir (Bombazo, Pollo o California), 1 orden de boneless y papas.",
+    "options": [
+      {
+        "title": "Sushi",
+        "options": [
+          "Bombazo",
+          "Pollo",
+          "California"
+        ],
+        "count": 3
+      }
+    ],
+    "sortOrder": 92,
+    "variants": [
+      {
+        "id": "p093v1",
+        "label": "Normal",
+        "priceCents": 45000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p094",
+    "category": "Charolas",
+    "name": "Natural",
+    "description": "2 California roll, Aguacate roll y Philadelphia roll.",
+    "options": [],
+    "sortOrder": 93,
+    "variants": [
+      {
+        "id": "p094v1",
+        "label": "Normal",
+        "priceCents": 39000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p095",
+    "category": "Promociones",
+    "name": "Dos mejor que uno",
+    "description": "Dos arrochitos de pollo y 1 litro de té gratis.",
+    "options": [],
+    "sortOrder": 94,
+    "variants": [
+      {
+        "id": "p095v1",
+        "label": "Normal",
+        "priceCents": 20000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p096",
+    "category": "Promociones",
+    "name": "Combo X2",
+    "description": "Dos combos #1 y 1 litro de té gratis.",
+    "options": [
+      {
+        "title": "Guiso del combo",
+        "options": [
+          "Pollo agridulce",
+          "Pollo enchilado",
+          "Pollo New Dragón",
+          "Pollo en tiras",
+          "Combinación china",
+          "Puerco Taipéi",
+          "Pollo en salsa de ostión",
+          "Pollo tamarindo",
+          "Pollo vietnamita",
+          "Pollo pekinés",
+          "Puerco cantonés"
+        ],
+        "count": 2
+      }
+    ],
+    "sortOrder": 95,
+    "variants": [
+      {
+        "id": "p096v1",
+        "label": "Normal",
+        "priceCents": 22000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p097",
+    "category": "Promociones",
+    "name": "Pa mi solito",
+    "description": "Medio Bombazo, media orden de boneless, papas fritas y medio litro de té gratis.",
+    "options": [],
+    "sortOrder": 96,
+    "variants": [
+      {
+        "id": "p097v1",
+        "label": "Normal",
+        "priceCents": 16000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p098",
+    "category": "Promociones",
+    "name": "Rompeladompe",
+    "description": "Orden de boneless, papas fritas y medio litro de té gratis.",
+    "options": [],
+    "sortOrder": 97,
+    "variants": [
+      {
+        "id": "p098v1",
+        "label": "Normal",
+        "priceCents": 14500,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p099",
+    "category": "Promociones",
+    "name": "Combo Dragón",
+    "description": "Bombazo y medio yakimeshi de pollo en grevi a elegir. Indicar grevi en observaciones.",
+    "options": [],
+    "sortOrder": 98,
+    "variants": [
+      {
+        "id": "p099v1",
+        "label": "Normal",
+        "priceCents": 15000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p100",
+    "category": "Promociones",
+    "name": "Esferas del Dragón",
+    "description": "2 sushibolas especiales, 2 dedos de queso y 1 litro de té gratis.",
+    "options": [],
+    "sortOrder": 99,
+    "variants": [
+      {
+        "id": "p100v1",
+        "label": "Normal",
+        "priceCents": 23000,
+        "sortOrder": 0
+      }
+    ]
+  },
+  {
+    "id": "p101",
+    "category": "Promociones",
+    "name": "Todo bienn",
+    "description": "Arrochito especial, sushibola especial, sushi cielo, mar y tierra y 1.5 litros de té gratis.",
+    "options": [],
+    "sortOrder": 100,
+    "variants": [
+      {
+        "id": "p101v1",
+        "label": "Normal",
+        "priceCents": 33000,
+        "sortOrder": 0
+      }
+    ]
+  }
+]
