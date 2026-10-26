@@ -1,10 +1,12 @@
 {
-  "version": "0.3.1",
-  "versionCode": 9,
+  "version": "0.3.2",
+  "versionCode": 10,
   "package": "mx.newdragon.pos",
+  "minSdk": 31,
+  "targetSdk": 36,
   "build": "assembleDebug: successful",
   "unitTests": {
-    "tests": 60,
+    "tests": 72,
     "failures": 0,
     "errors": 0,
     "skipped": 0
@@ -102,6 +104,13 @@
       "skipped": "0"
     },
     {
+      "name": "mx.newdragon.pos.OrderFocusTest",
+      "tests": "12",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0"
+    },
+    {
       "name": "mx.newdragon.pos.PaymentInterfaceTest",
       "tests": "1",
       "failures": "0",
@@ -174,14 +183,10 @@
   ],
   "lint": {
     "severity_counts": {
-      "Warning": 12,
+      "Warning": 11,
       "Hint": 2
     },
     "issues": [
-      {
-        "id": "NewerVersionAvailable",
-        "severity": "Warning"
-      },
       {
         "id": "ModifierParameter",
         "severity": "Warning"
@@ -236,7 +241,71 @@
       }
     ]
   },
-  "validation": "Robolectric API 34, including 1280x800 tablet, 400x900 phone, 320x640 phone and 200% text; hardware checks pending",
-  "design": "Operación ágil; selected by user from text descriptions",
-  "visualEvidence": "docs/design-qa and previews/0.3.1"
+  "focusRegression": {
+    "baselineCommit": "b0ea1051164e421ab8ee50fcafbebd75819e5c0e",
+    "sdks": [
+      31,
+      34,
+      36
+    ],
+    "androidVersions": [
+      "12",
+      "14",
+      "16"
+    ],
+    "widthDp": 400,
+    "heightDp": [
+      720,
+      520,
+      440,
+      439,
+      360,
+      439,
+      440,
+      520,
+      720
+    ],
+    "fields": [
+      "reference",
+      "customerPhone",
+      "notes",
+      "deliveryAddress"
+    ],
+    "checks": [
+      "focus at every height",
+      "cursor selection",
+      "continued input",
+      "draft values",
+      "checkout visible after expansion",
+      "details collapse"
+    ],
+    "beforeFix": {
+      "tests": 12,
+      "failures": 12,
+      "errors": 0,
+      "skipped": 0
+    },
+    "afterFix": {
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "testRuntimeJava": 21
+  },
+  "apk": {
+    "file": "New-Dragon-0.3.2.apk",
+    "sizeBytes": 32619288,
+    "sha256": "dbd1be8479a95f354e3c298a5dad8adbd44b5b7d012bd1561dc4934afd46b11a",
+    "signaturesMatch": true,
+    "certificateSha256": "a9f949077d470c3c02b0527a764a780b1344ba4d55ffa46e73ee297934540493",
+    "badging": [
+      "package: name='mx.newdragon.pos' versionCode='10' versionName='0.3.2' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+      "sdkVersion:'31'",
+      "targetSdkVersion:'36'",
+      "native-code: 'arm64-v8a' 'armeabi-v7a' 'x86' 'x86_64'"
+    ]
+  },
+  "validation": "Robolectric API 31, 34 and 36 for focus regression; existing Android suites on API 34; no physical IME/device test",
+  "documentation": "docs/keyboard-focus-0.3.2.md"
 }

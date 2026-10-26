@@ -1,23 +1,29 @@
-# New Dragon · Android 0.3.1
+# New Dragon · Android 0.3.2
 
 Aplicación nativa para registrar pedidos, cobrar e imprimir tickets. Kotlin, Jetpack Compose y Room; Android 12 o posterior. Interfaz en español, importes en MXN y fechas del negocio en Los Mochis, Sinaloa.
 
 ## Descargar el APK de prueba
 
-[Descargar New Dragon 0.3.1 para Android](https://github.com/Kevin-a12/Mi-APP-NEW-DRAGON/raw/refs/heads/apk-0.3.1/New-Dragon-0.3.1.apk).
+[Descargar New Dragon 0.3.2 para Android](https://github.com/Kevin-a12/Mi-APP-NEW-DRAGON/raw/refs/heads/apk-0.3.2/New-Dragon-0.3.2.apk).
 
-Si el navegador no inicia la descarga, abre la [página del APK en GitHub](https://github.com/Kevin-a12/Mi-APP-NEW-DRAGON/blob/apk-0.3.1/New-Dragon-0.3.1.apk) y utiliza **Download raw file**. GitHub puede solicitar que inicies sesión si el repositorio es privado.
+Si el navegador no inicia la descarga, abre la [página del APK en GitHub](https://github.com/Kevin-a12/Mi-APP-NEW-DRAGON/blob/apk-0.3.2/New-Dragon-0.3.2.apk) y utiliza **Download raw file**. GitHub puede solicitar que inicies sesión si el repositorio es privado.
 
-El APK se conserva en la rama de distribución `apk-0.3.1`; el proyecto editable está en `main`.
+El APK se conserva en la rama de distribución `apk-0.3.2`; el proyecto editable está en `main`. La versión anterior permanece en `apk-0.3.1`.
+
+## Corrección del teclado · 0.3.2
+
+Nombre, contacto, notas y domicilio conservan el foco y la posición del cursor cuando cambia la altura disponible al abrir o cerrar el teclado. Los elementos del pedido ahora tienen claves estables: insertar la cabecera y las acciones en la lista de una ventana pequeña ya no recrea los campos de texto. La solución usa la identidad de elementos de Jetpack Compose y se aplica a Android 12 o posterior sin condiciones por marca o teclado.
+
+La reproducción, las pruebas y sus límites están en [docs/keyboard-focus-0.3.2.md](docs/keyboard-focus-0.3.2.md).
 
 ## Instalar la actualización
 
 1. Guarda un respaldo desde **Respaldos** en la aplicación actual. Esta opción se encuentra en **Ajustes → Guardar o restaurar respaldo**.
-2. Abre **New-Dragon-0.3.1.apk** en el mismo dispositivo y elige **Actualizar**.
-3. Entra en **Ajustes** y comprueba **Versión 0.3.1**.
+2. Abre **New-Dragon-0.3.2.apk** en el mismo dispositivo y elige **Actualizar**.
+3. Entra en **Ajustes** y comprueba **Versión 0.3.2**.
 4. En **Ajustes → Configurar impresora**, revisa el equipo e imprime una prueba.
 
-Conserva la aplicación instalada: desinstalar puede borrar su información. Esta versión mantiene el paquete `mx.newdragon.pos` y el certificado de desarrollo de 0.2.4; usa versionCode 9. Las migraciones conservan menú editado, tickets, pagos, borrador, folios y registros de impresión. Si Android muestra un error al actualizar, conserva los datos y revisa ese mensaje.
+Conserva la aplicación instalada: desinstalar puede borrar su información. Esta versión mantiene el paquete `mx.newdragon.pos` y el certificado de desarrollo de 0.2.4; usa versionCode 10. Las migraciones conservan menú editado, tickets, pagos, borrador, folios y registros de impresión. Si Android muestra un error al actualizar, conserva los datos y revisa ese mensaje.
 
 ## Diseño Operación ágil · 0.3.1
 
@@ -78,14 +84,22 @@ Datos enviados significa que concluyó el envío; no confirma que el papel sali�
 
 ## Compilar y validar
 
-Requisitos: JDK 17, Android SDK 36 y Build Tools 35.0.0. Usa el Gradle Wrapper incluido (8.13), crea `local.properties` con la ruta de tu SDK y ejecuta:
+Requisitos: JDK 21, Android SDK 36 y Build Tools 35.0.0. Usa el Gradle Wrapper incluido (8.13), crea `local.properties` con la ruta de tu SDK y ejecuta:
 
 ```bash
 ./gradlew :app:assembleDebug :app:testDebugUnitTest :app:lintDebug
+```
+
+El código Android mantiene el destino JVM 17. Las pruebas seleccionan un runtime Java 21 mediante Gradle Toolchains porque Robolectric lo necesita para Android 16/API 36. También se puede compilar con JDK 17 si hay una instalación Java 21 detectable para ejecutar las pruebas.
+
+Para ejecutar solo la regresión del teclado:
+
+```bash
+./gradlew :app:testDebugUnitTest --tests 'mx.newdragon.pos.OrderFocusTest'
 ```
 
 El APK se genera en `app/build/outputs/apk/debug/app-debug.apk`. La firma de desarrollo incluida permite actualizar la versión anterior. El proyecto no incluye caches, SDK ni rutas locales de la máquina de compilación.
 
 Las pruebas cubren cálculos exactos, pagos inválidos, migraciones reales, conservación de folios y menú, edición de pendientes, anulaciones, devoluciones, cortes, restauración, búsquedas, transmisión y pantallas de teléfono y tablet. `VALIDACION.json` contiene los resultados de esta entrega. Las imágenes en `previews/` usan datos ficticios de prueba; una instalación nueva comienza sin ventas.
 
-La impresora Bluetooth, su cortadora y la instalación en el dispositivo del negocio requieren comprobación física; las pruebas automatizadas simulan Android API 34.
+La regresión del foco simula Android 12, 14 y 16 (API 31, 34 y 36); el resto de las pruebas Android usa API 34. La impresora Bluetooth, su cortadora y el teclado real del dispositivo del negocio requieren comprobación física.

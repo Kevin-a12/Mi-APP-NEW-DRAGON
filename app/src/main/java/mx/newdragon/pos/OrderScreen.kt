@@ -136,15 +136,17 @@ import org.json.JSONObject
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             if (!scrollActions) cartHeader()
             LazyColumn(Modifier.weight(1f).testTag("order-fields"), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                if (scrollActions) item { cartHeader() }
-                item { Choice("Servicio", vm.draft.service, DeliveryRules.services, !vm.saving) { vm.orderInfo(service = it) } }
-                if (vm.draft.service == "A domicilio") item {
+                // IME resizing moves the header/actions into this list. Stable keys
+                // keep each editor's focus and cursor when its index changes.
+                if (scrollActions) item(key = "cart-header") { cartHeader() }
+                item(key = "service") { Choice("Servicio", vm.draft.service, DeliveryRules.services, !vm.saving) { vm.orderInfo(service = it) } }
+                if (vm.draft.service == "A domicilio") item(key = "delivery-address") {
                     OutlinedTextField(vm.draft.deliveryAddress, { vm.orderInfo(deliveryAddress = it) },
                         label = { Text("Domicilio de entrega *") }, placeholder = { Text("Calle, número y colonia") },
                         enabled = !vm.saving, maxLines = 3, modifier = Modifier.fillMaxWidth())
                 }
-                if (vm.draft.lines.isEmpty()) item { Info("Busca un platillo y toca Añadir al pedido para comenzar.") }
-                items(vm.draft.lines, key = { it.key }) { line ->
+                if (vm.draft.lines.isEmpty()) item(key = "empty-order") { Info("Busca un platillo y toca Añadir al pedido para comenzar.") }
+                items(vm.draft.lines, key = { "order-line:${it.key}" }) { line ->
                     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                             Text(line.name, style = MaterialTheme.typography.titleMedium, modifier = Modifier.weight(1f))
@@ -170,7 +172,7 @@ import org.json.JSONObject
                         HorizontalDivider(color = DragonLine)
                     }
                 }
-                item {
+                item(key = "customer-details") {
                     OutlinedButton({ details = !details }, modifier = Modifier.fillMaxWidth().heightIn(min = 48.dp),
                         shape = MaterialTheme.shapes.small, colors = ButtonDefaults.outlinedButtonColors(contentColor = DragonInk)) {
                         Text(if (details) "Ocultar datos del cliente" else "Agregar nombre, contacto o notas", Modifier.weight(1f))
@@ -186,17 +188,17 @@ import org.json.JSONObject
                     }
                 }
                 if (details) {
-                    item { OutlinedTextField(vm.draft.reference, { vm.orderInfo(reference = it) },
+                    item(key = "customer-name") { OutlinedTextField(vm.draft.reference, { vm.orderInfo(reference = it) },
                         label = { Text(if (vm.draft.service == "En mesa") "Mesa o nombre" else "Nombre (opcional)") },
                         singleLine = true, enabled = !vm.saving, modifier = Modifier.fillMaxWidth()) }
-                    item { OutlinedTextField(vm.draft.customerPhone, { vm.orderInfo(customerPhone = it) },
+                    item(key = "customer-contact") { OutlinedTextField(vm.draft.customerPhone, { vm.orderInfo(customerPhone = it) },
                         label = { Text("Contacto (opcional)") }, singleLine = true, enabled = !vm.saving,
                         keyboardOptions = androidx.compose.foundation.text.KeyboardOptions(keyboardType = androidx.compose.ui.text.input.KeyboardType.Phone),
                         modifier = Modifier.fillMaxWidth()) }
-                    item { OutlinedTextField(vm.draft.notes, { vm.orderInfo(notes = it) },
+                    item(key = "order-notes") { OutlinedTextField(vm.draft.notes, { vm.orderInfo(notes = it) },
                         label = { Text("Notas del pedido (opcional)") }, enabled = !vm.saving, maxLines = 3, modifier = Modifier.fillMaxWidth()) }
                 }
-                if (scrollActions) item {
+                if (scrollActions) item(key = "cart-actions") {
                     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) { cartActions() }
                 }
             }

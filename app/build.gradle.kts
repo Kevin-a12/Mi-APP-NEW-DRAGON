@@ -11,8 +11,8 @@ android {
         applicationId = "mx.newdragon.pos"
         minSdk = 31
         targetSdk = 36
-        versionCode = 9
-        versionName = "0.3.1"
+        versionCode = 10
+        versionName = "0.3.2"
     }
     signingConfigs.getByName("debug") {
         storeFile = rootProject.file("signing/new-dragon-development.keystore")
@@ -54,6 +54,8 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
 tasks.withType<Test>().configureEach {
+    // Robolectric's Android 16/API 36 sandbox needs a Java 21 runtime.
+    javaLauncher.set(javaToolchains.launcherFor { languageVersion.set(JavaLanguageVersion.of(21)) })
     listOf("http.proxyHost", "http.proxyPort", "https.proxyHost", "https.proxyPort", "javax.net.ssl.trustStore").forEach { key ->
         System.getProperty(key)?.let { systemProperty(key, it) }
     }
